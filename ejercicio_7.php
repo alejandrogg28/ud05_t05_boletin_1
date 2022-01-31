@@ -14,7 +14,7 @@ echo "<p></p>";
 $nombre="Alejandro";
 $direccion="Calle C Nº1 3A";
 $telefono="986783251";
-echo "Nombre: ".$nombre." , Dirección: ".$direccion." , Teléfono: ".$telefono;
+echo "Nombre: ".$nombre.", Dirección: ".$direccion.", Teléfono: ".$telefono;
 ?>
 </body>
 </html>

@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <?php
 //Realiza un conversor de euros a pesetas. La cantidad en euros que se quiere convertir deberá estar
 //almacenada en una variable.
-
+header('Content-Type:text/html;charset=UTF-8');
+$euros=$_REQUEST["caixaEuros"];
+$pesetas= $euros * 166;
+echo "A cantidade indicada en pesetas é: ".$pesetas;
 ?>
-</body>
-</html>
